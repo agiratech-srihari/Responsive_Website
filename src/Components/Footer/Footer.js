@@ -6,16 +6,14 @@ function Footer() {
     <Box
       component="footer"
       sx={{
-        position: "absolute",
-        bottom:0,
-        left:0,
         width:'100%',
-        backgroundColor: "#2c566d",
+        backgroundColor: "#041841",
         color: "white",
         height: "3rem",
-        display: "flex",
+        display: { xs: 'flex', md: 'flex'}, 
         justifyContent: "space-around",
         alignItems: "center",
+        marginTop:'5rem'
       }}
     >
       <p style={{ margin: ".5rem" }}>
@@ -23,7 +21,7 @@ function Footer() {
         001 228 799
       </p>
       <div style={{ display: "flex" }}>
-        <p style={{ margin: ".5rem" }}>
+        <p style={{ margin: ".5rem" }} >
           <i className="fa-brands fa-facebook-f"></i>
         </p>
         <p style={{ margin: ".5rem" }}>

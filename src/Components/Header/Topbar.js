@@ -29,8 +29,8 @@ function Topbar() {
   
 
   return (
-    <AppBar position="static" sx={{backgroundColor:'#2c566d'}}>
-      <Container maxWidth="xl">
+    <AppBar position="static" sx={{backgroundColor:'#041841'}}>
+      <Container maxWidth="lg">
         <Toolbar disableGutters>
         
           <Box  sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }}}>
@@ -70,7 +70,7 @@ function Topbar() {
             </Menu>
           </Box>
           
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } ,justifyContent:'space-around' }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } ,alignItems:'center',justifyContent:'space-around'}}>
 
               <Button
                 onClick={handleCloseNavMenu}

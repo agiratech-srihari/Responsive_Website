@@ -1,8 +1,8 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import image1 from "../../assets/Images/Sergery.webp";
+import image1 from "../../assets/Images/Doc.jpg";
 import image2 from "../../assets/Images/Steth.jpg";
-import image3 from "../../assets/Images/Radio.jpg";
+import image3 from "../../assets/Images/Doc_Pic.jpg";
 import "./CarouselDiv.css";
 function CarouselDiv() {
   return (

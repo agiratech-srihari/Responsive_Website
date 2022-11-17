@@ -4,7 +4,7 @@ img{
 }
 .carousel-caption{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    top:10%;
+    top:5%;
     height:50%;
     width: 300px;
 }
@@ -40,5 +40,5 @@ img{
     color: white;
     border: none;
     border-radius: 5px;
-    margin-left: -13rem;
+    margin-left: -12rem;
 }
