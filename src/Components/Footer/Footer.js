@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/system";
-
+import './Footer.css'
 function Footer() {
   return (
     <Box
@@ -10,7 +10,7 @@ function Footer() {
         backgroundColor: "#041841",
         color: "white",
         height: "3rem",
-        display: { xs: 'flex', md: 'flex'}, 
+        display:'flex',
         justifyContent: "space-around",
         alignItems: "center",
         marginTop:'5rem'
@@ -20,7 +20,7 @@ function Footer() {
         © Copyright Agency and Contributors {new Date().getFullYear()} , ABN 53
         001 228 799
       </p>
-      <div style={{ display: "flex" }}>
+      <div className="icon_cont">
         <p style={{ margin: ".5rem" }} >
           <i className="fa-brands fa-facebook-f"></i>
         </p>

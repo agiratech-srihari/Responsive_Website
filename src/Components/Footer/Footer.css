@@ -1,0 +1,10 @@
+.icon_cont{
+    display: flex;
+}
+
+@media (max-width: 375px){
+    .icon_cont{
+        display: none;
+     }
+    }
+    
